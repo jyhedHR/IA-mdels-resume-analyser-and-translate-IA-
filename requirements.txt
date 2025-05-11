@@ -1,0 +1,10 @@
+flask
+flask-cors
+transformers
+torch
+spacy
+opencv-python-headless
+deepface
+sentencepiece
+accelerate
+protobuf<4.0.0  # for compatibility with some tokenizers
