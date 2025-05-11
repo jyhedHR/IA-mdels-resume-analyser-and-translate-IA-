@@ -5,7 +5,7 @@ import spacy
 import torch
 
 app = Flask(__name__)
-CORS(app, origins=["https://trelix-livid.vercel.app"], supports_credentials=True)
+CORS(app, origins=["https://trelix-livid.vercel.app, http://localhost:5173,https://trelix-xj5h.onrender.com"], supports_credentials=True)
 
 # ========== Load Translation Model ==========
 print("Loading translation model...")
